@@ -10,5 +10,6 @@ st.set_page_config(
 
 
 #Crear las multipaginas
-pg = st.navigation(["Inicio.py", "Prueba.py","grasas.py","contacto.py"])
+pg = st.navigation(["inicio.py", "Prueba.py","grasas.py","contacto.py"])
+
 pg.run()
